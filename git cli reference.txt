@@ -1,6 +1,6 @@
 #    More information on commands:
 https://www.git-scm.com/doc 
-|
+
 ###    Initialize current directory as a git repository
 ```git init```
 
