@@ -1,0 +1,44 @@
+#    More information on commands:
+https://www.git-scm.com/doc 
+|
+###    Initialize current directory as a git repository
+```git init```
+
+
+###    Set alias for a Remote Repository
+```git remote add [alias-name] [Remote Repository URL]```
+
+
+###    Set access token for a GitHub remote repository
+```git remote set-url [alias] https://[username]:[token access key]@github.com/[username]/[repository name].git```
+
+
+###    Download from repository
+```git fetch [alias]```
+
+
+###    List branches
+```git branch```
+
+
+###    Create the mentioned branch (use 'main' when first setting up a repository)
+```git branch [Branch Name]```
+
+###    Stage Files to Commit (' . ' to include all files)
+```git add [file1] [file2]```
+
+
+###    Create commit with descriptions (additional "-m" arguments will add to the paragraph)
+```git commit -m [Commit Desc1] -m [Commit Desc2]```
+
+
+###    Switch to the mentioned branch 
+```git switch [Branch Name]```
+
+
+###     Syncs changes from the remote repository to the local repository
+```git pull [alias]```
+
+
+###    Pushes code into remote repository (Commits everything that is staged to the remote repository) 
+```git push [alias]```
